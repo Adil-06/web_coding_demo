@@ -1,4 +1,4 @@
-
+console.log("im start");
  var person = { fName:"alex",
              lName :"hale",
             gender:"male",
@@ -30,11 +30,13 @@ for (x in person) {
 
 document.getElementById("full_info").innerHTML = res.toUpperCase();
 
-// for constructor function
-/* function Person(first, last, age, eye) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.eyeColor = eye;
-  } */
-  
+
+console.log('im here.....');
+  // for js functions
+
+  var fun = function ( a,b)  { return a * b  } ;
+   //document.getElementById("demo").innerHTML = fun(12 , 8);
+   
+   var z = fun(3,7);
+document.getElementById("demo").innerHTML = z;
+   
