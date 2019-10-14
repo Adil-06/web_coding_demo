@@ -1,4 +1,8 @@
-console.log("im start");
+(function() {
+    console.log("im start");
+})();
+
+
  var person = { fName:"alex",
              lName :"hale",
             gender:"male",
@@ -31,12 +35,6 @@ for (x in person) {
 document.getElementById("full_info").innerHTML = res.toUpperCase();
 
 
-console.log('im here.....');
-  // for js functions
+//console.log('im here.....');
 
-  var fun = function ( a,b)  { return a * b  } ;
-   //document.getElementById("demo").innerHTML = fun(12 , 8);
-   
-   var z = fun(3,7);
-document.getElementById("demo").innerHTML = z;
-   
+ 
