@@ -83,3 +83,21 @@ function sumfunction() {
     return sum;
 }
 document.getElementById("demo_sum").innerHTML = sumfunction(1,2,3,4,55,44);
+
+
+// function closure
+
+function displaymultiply (a,b) {
+    var num1 = a;
+    var num2 = b;
+     function res() {
+      return  num1 * num2 ;
+    }
+    return res();
+} 
+
+document.getElementById("js_closure").innerHTML = displaymultiply(2,2);
+
+
+
+
