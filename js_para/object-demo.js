@@ -37,4 +37,12 @@ document.getElementById("full_info").innerHTML = res.toUpperCase();
 
 //console.log('im here.....');
 
- 
+ // for The window.location object 
+( function () {
+
+    document.getElementById("win_loc_href").innerHTML = "the url is = " + window.location.href ;
+    document.getElementById("demo_hostname").innerHTML = window.location.hostname;
+     document.getElementById("demo_protocol").innerHTML = window.location.protocol;
+     document.getElementById("demo_navigator").innerHTML = navigator.appName;
+    } 
+)();

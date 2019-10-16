@@ -98,6 +98,17 @@ function displaymultiply (a,b) {
 
 document.getElementById("js_closure").innerHTML = displaymultiply(2,2);
 
+// for call method()
+(function(){
+    var title = {name : 'joker'};
+
+    function movie(year, length) {
+        return "Movie: " + this.name + ", Year: " + year + ", Length: " + length;
+    };
+
+    // invoke a call method
+   document.getElementById('call').innerHTML = movie.call(title, '2019' , '120 min');
+})();
 
 
 
