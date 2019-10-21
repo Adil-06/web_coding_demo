@@ -1,6 +1,6 @@
 
  (function() {
-  //  console.log("im start");
+   console.log("im start");
     "use strict";
     var el = function(element) {
         if (element.charAt(0) === "#") { // If passed an ID...
@@ -23,7 +23,7 @@
         // When: Number is clicked. Get the current number selected
 
         var setnum = function() {
-            //console.log("im here");
+           // console.log("im here");
 
             if(resultNum) { // reset the result num
                 theNum = this.getAttribute("data-num");
@@ -105,21 +105,21 @@
         };
 
         // add click event on numbers
-        for (var i = 0, l = nums.lenght; i < l; i++) {
-            console.log("i,m here");
-            nums[i].onclick = setnum;
+        for (var i = 0, l = nums.length; i < l; i++) {
+          //  console.log(" number clicked");
+            nums[i].onclick = setnum ;
 
         }
 
         // to add click event on operators
-        for( var o = 0, len= ops.lenght; o < len; o++) {
+        for( var o = 0, len= ops.length; o < len; o++) {
             ops[o].onclick = moveNum ;
         }
         // click event to equal sign
         equals.onclick = displayNum ;
 
         // click event on clear button
-        el("#clear_res").onclick = clearAll ;
+        el("#clear").onclick = clearAll ;
        
         //click event to reset button
         el("#reset").onclick = function() {
@@ -128,4 +128,4 @@
         
 
 
-})();
+ })();
