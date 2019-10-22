@@ -4,46 +4,41 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="custom.css">
+    <title>simple calculator</title>
 
-
-    <title>Hello, world!</title>
-
-    <style>
-        button {
-    border: 0;
-    background-color: crimson;;
-    color: white;
-    cursor: pointer;
-       font: inherit;
-    margin: 0.25em;
-    width: 2em;
-    height: 2em;
     
-}
-    button:hover {
-      background: #201e40;
-    }
-    </style>
   </head>
   <body>
     <div style="background-color: cadetblue; margin-top: 15px; text-align: center;"  >
         <h1> for js exercise</h1>
 
-        <form id="myform">
-            <input type="text" name="fn" value="0" >
-        </form>
-        <button id="num4" onclick="show()" >4</button>
-        <button id="num3">3</button>
-        <button id="num2">2</button>
-        <button id="num1">1</button> <br>
-
-        <button id="add">+</button>
-        <button id="minus">-</button>
-        <button id="multiply">*</button>
-        <button id="divide">/</button> <br>
+        <p id="inputVal"> 0</p> <br>
+         <!-- <input  id="inputVal" type="text"  value="0" > <br> -->
         
-        <button id="clear" onclick="clearAll()">C</button>
-        <button id="result">=</button>
+        <button id="num4" onclick="showNum(this)" >4</button>
+        <button id="num3" onclick="showNum(this)" >3</button>
+        <button id="num2" onclick="showNum(this)">2</button>
+        <button id="num1" onclick="showNum(this)" >1</button> <br>
+
+        <button id="num5" onclick="showNum(this)" >5</button>
+        <button id="num6" onclick="showNum(this)" >6</button>
+        <button id="num7" onclick="showNum(this)">7</button>
+        <button id="num8" onclick="showNum(this)" >8</button> <br>
+
+        <button id="num9" onclick="showNum(this)" >9</button>
+        <button id="num0" onclick="showNum(this)" >0</button>
+        <button id="dot" onclick="showNum(this)" >.</button>
+        <button id="equal" onclick="showNum(this)">=</button> <br>
+
+
+        <button id="add" onclick="showNum(this)">+</button>
+        <button id="minus"  onclick="showNum(this)" >-</button>
+        <button id="multiply" onclick="showNum(this)">*</button>
+        <button id="divide" onclick="showNum(this)">/</button> <br>
+        
+        <button id="clear" onclick="showNum(this)">C</button>
+        
 
 
 
