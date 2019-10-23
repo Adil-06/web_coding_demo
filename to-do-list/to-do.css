@@ -1,0 +1,45 @@
+.main-div
+{
+    background-color: darkgray;
+    margin: 20px;
+    text-align: center;
+    width: initial;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.entery-div 
+{
+    height: auto;
+    height: auto;
+    margin: 10px 100px;
+    background-color: #f19deb;
+    align-content: center;
+    padding: 10px 0px;
+}
+
+.heading
+{
+    text-decoration: mintcream;
+    color: firebrick;
+    font-family:  Helvetica, sans-serif;
+
+}
+
+#entery
+{
+    width: 50%;
+    height: 25px;
+    padding-left: 10px;
+    color: cornflowerblue;
+    font-size: inherit;
+}
+
+#btn_add {
+    background: #08afaf;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-color: steelblue;
+    
+}
