@@ -2,7 +2,7 @@
 
 var input = document.getElementById("inputVal");
 // to show num
-  function showNum(obj) {
+ function showNum(obj) {
      // console.log("inside shownum");
     var store = obj.innerHTML;
     if (store == '=') {
