@@ -1,0 +1,20 @@
+.formDiv{
+    background-color: #97badc;
+    margin-top: 50px;
+    width: 50%;
+    
+}
+.entField {
+    border: 1px solid #355576;
+    width: 50%;
+}
+.formTitle{
+    align-self: center;
+    color: firebrick;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#submitbtn {
+    background-color: #06142ed1;
+}
