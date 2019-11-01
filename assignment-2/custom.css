@@ -1,0 +1,18 @@
+.form-div{
+    background-color: darkgrey;
+    padding: 15px;
+    width: 50%;
+}
+.result-div{
+    background-color: darkseagreen;   
+    margin: 15px;
+    align-items: center;
+    padding: 15px;
+}
+.res-div-title{
+    color: darkblue; 
+    text-decoration-line: underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
