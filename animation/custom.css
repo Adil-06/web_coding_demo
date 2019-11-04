@@ -1,0 +1,44 @@
+#title{
+    color: #d8351bf5;
+    font-family: Verdana,  Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: #7aa9d6 2px 2px;
+    text-decoration-line: underline;
+    position: sticky;
+     top: 0;
+     background-color: #baedba;
+     border: 1px solid #72fb77;
+     padding: 8px;
+}
+.animate-div{
+    margin: 8px;
+    background-color: #daf5b1;
+    position: relative;
+    padding: 8px;
+    width: auto;
+    height: 300px;
+}
+.test-div{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    background-color: #b9aeaeab;
+    padding: 5px;
+    
+}
+#moveText{
+    font-family: fantasy , Lucida ;
+    
+
+}
+.img-div{
+    margin: 8px;
+    position:  absolute;
+    top: 60%;
+    left: 40%;
+    align-content: center;
+}
+.btnstop{
+    margin-top: 15px;
+    padding: 5px;
+}
