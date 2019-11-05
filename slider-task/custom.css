@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: firebrick;
+}
+.slider-div{
+    background-color: lightsteelblue;
+    margin: 10px;
+    padding: 10px;
+  text-align: center;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    
+}
+#testbtn{
+    margin: 10px;
+    padding: 5px;
+    width: 50px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+
+
+} #testbtn:hover{
+    background-color: tomato;
+}
