@@ -9,13 +9,30 @@
         currentSlide = (currentSlide+1)%slides.length;
         slides[currentSlide].className = 'slide showing';
     }
-
-    var satrt = document.getElementById("startbtn");
-    satrt.onclick = function(){
-        //setInterval(nextSlide,3000);
+    
+    var playing = true;
+    var stop = document.getElementById("stopbtn");
+    
+  function startAgain() {
+      stop.innerHTML = "Stop";
+      playing = true;
+       slideInterval = setInterval(nextSlide,3000);
+    
     }
-var stop = document.getElementById("stopbtn");
- stop.onclick = function(){
-     clearInterval(slideInterval);
- }
+    function pasue() {
+        stop.innerHTML = "Start";
+         playing = false;
+    clearInterval(slideInterval);
+   } 
+
+       stop.onclick = function() {
+        if( playing) {
+            pasue();
+        } 
+        else {
+            startAgain();
+        }
+    }
+
+
 })();
