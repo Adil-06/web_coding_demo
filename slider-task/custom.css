@@ -27,3 +27,27 @@ ul li{
 } #testbtn:hover{
     background-color: tomato;
 }
+.second-slider{
+    background-color: darkgrey;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.demo-slider{
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.btn-div{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.btn-div button{
+    background-color: lightseagreen ;
+    padding: 5px;
+    color: darkred;
+    border: 1px solid bisque;
+    cursor: pointer;
+
+}
