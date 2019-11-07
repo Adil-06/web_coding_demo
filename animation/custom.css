@@ -43,3 +43,26 @@
     padding: 5px;
     position: absolute;
 }
+.moveball-div{
+    background-color: blueviolet;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+}
+.moveballBtn{
+    background-color: cornflowerblue;
+    color: black;
+    border-radius: 3px;
+    margin-top: 15px ;
+    margin-left: 30px;
+    padding: 4px;
+}
+.resizer{
+    background-color: darkgray;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    width: 20%;
+    height: 30%;
+    cursor: pointer;
+}
