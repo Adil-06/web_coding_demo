@@ -37,24 +37,6 @@ $(document).ready(function()
 
        },4000);
 
-     //  $(".demo-slider").fadeOut("slow");
-    //  $(".demo-slider").each(function(index){
-    //      if(index == 0){
-    //      $(this).fadeOut(1000);
-    //      }
-    //      if(index == 1){
-    //          $(this).fadeOut(2000);
-    //      }
-    //      if(index == 2){
-    //          $(this).fadeOut(3000)
-    //      }
-    //      else {
-    //          $(this).fadeIn(1000);
-    //      }
-    //  });
-
-
-
     });
 
 
