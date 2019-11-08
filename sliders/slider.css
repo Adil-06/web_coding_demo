@@ -87,11 +87,31 @@
 .slide-image{
     display: none;
     width: 60%;
+    margin-left: 450px;
 }
 .sec-slide-div button{
     background-color: #ed6fe3;
     color: black;
-    margin-left: 120px;
+    margin-left: 450px;
     padding: 5px;
-    width: auto;
+    width: max-content;
 }
+.np-div{
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    display: inline;
+
+}
+#btnPre{
+    background-color: coral;
+    margin-left: 431px;
+    margin-top: 8px;
+}
+#btnNext{
+    background-color: coral;
+    margin-left: 128px;
+
+
+}
+

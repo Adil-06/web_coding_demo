@@ -36,6 +36,8 @@
 
     // code for new slider
     var incrementindex = 0;
+    var startimageshirt=  setTimeout(secSlide,3000);
+
     function secSlide()
     {
         var  imgarray = document.getElementsByClassName('slide-image');
@@ -46,11 +48,18 @@
         incrementindex++;
         if(incrementindex > imgarray.length){ incrementindex = 1 }
         imgarray[incrementindex - 1].style.display = 'block';
-        setTimeout(secSlide,3000);
+          startimageshirt =  setTimeout(secSlide,3000);
     }
 
     
     var btnclick = document.getElementById("btnSlide");
     btnclick.addEventListener("click", secSlide);
+
+    var stopslide = document.getElementById("stopSlide");
+    stopslide.onclick = function stopshirtImages(){
+        console.log("in stop slide");
+        clearTimeout (startimageshirt);
+
+    }
 
 })();
