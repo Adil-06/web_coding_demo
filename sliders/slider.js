@@ -34,5 +34,23 @@
         }
     }
 
+    // code for new slider
+    var incrementindex = 0;
+    function secSlide()
+    {
+        var  imgarray = document.getElementsByClassName('slide-image');
+        for( i = 0; i <  imgarray.length; i++)
+        {
+          imgarray[i].style.display = "none";
+        }
+        incrementindex++;
+        if(incrementindex > imgarray.length){ incrementindex = 1 }
+        imgarray[incrementindex - 1].style.display = 'block';
+        setTimeout(secSlide,3000);
+    }
+
+    
+    var btnclick = document.getElementById("btnSlide");
+    btnclick.addEventListener("click", secSlide);
 
 })();

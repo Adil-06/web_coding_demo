@@ -74,3 +74,24 @@
     padding: 5px;
     color: mediumblue;
 }
+
+.sec-slide-div{
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+}
+.img-list {
+    width: 400px;
+    height: auto;
+}
+.slide-image{
+    display: none;
+    width: 60%;
+}
+.sec-slide-div button{
+    background-color: #ed6fe3;
+    color: black;
+    margin-left: 120px;
+    padding: 5px;
+    width: auto;
+}
