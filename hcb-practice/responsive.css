@@ -1,0 +1,17 @@
+/* for title head */
+@media screen and (max-width:680px){
+    .title-heading{
+        font-size: 25px;
+        color: brown;
+    }
+}
+/*  for show more button*/
+@media screen and (max-width:680px)
+{
+    .btn-show-more {
+        background-color: dodgerblue;
+        color: black;
+        font-family:  monospace;
+    
+    }
+}
