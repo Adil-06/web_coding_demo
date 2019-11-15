@@ -77,3 +77,11 @@ margin: 10px 0 -24px 0;
     background-size: cover;
     
 }
+.img-head{
+    color: #ce3333;
+    font-family: monospace;
+}
+.img-description{
+    text-align: justify;
+
+}

@@ -15,3 +15,38 @@
     
     }
 }
+@media screen and (max-width: 680px){
+    .img-head{
+        font-size: 15px;
+    }
+    .img-description{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:680px){
+    .nav-div-btn{
+        width: fit-content;
+        
+    }
+    .navlist { 
+        width: fit-content;
+    }
+
+}
+@media screen and (max-width:600px){
+    .nav-div-btn button{
+        font-size: 10px;
+        display: inline;
+        width: initial;
+        
+        
+    }
+    .navlist li{ 
+        display: inline;
+        font-size: 10px;
+        width: min-content;
+    }
+
+
+}
