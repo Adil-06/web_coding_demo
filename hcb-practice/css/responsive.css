@@ -38,14 +38,14 @@
     .nav-div-btn button{
         font-size: 10px;
         display: inline;
-        width: initial;
+        
         
         
     }
     .navlist li{ 
         display: inline;
         font-size: 10px;
-        width: min-content;
+        
     }
 
 
