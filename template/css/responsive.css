@@ -1,0 +1,50 @@
+ /*  for navigation div*/
+@media screen and (max-width: 990px) {
+    .ul-div ul li{
+        margin: 0px 5px;
+    }
+    .ul-div{
+        margin-left: 1%;
+    }
+
+}
+ /*  for join us button*/
+
+@media screen and (max-width:720px){
+    .btn-joinus{
+        width: 60px;
+        height: 30px;
+        padding: 1px;
+        font-size: 10px;
+     }
+}
+ /*  trip gallary description*/
+ @media screen and (max-width: 772px){
+     .trip-gal-desc h3{
+         font-size: inherit;
+         font-style: oblique;
+     }
+     .trip-gal-desc p{
+         font-size: inherit;
+     }
+ }
+
+ @media screen and (max-width: 993px){
+    .trip-gal-desc h3{
+        font-size: 15px;
+        font-style: oblique;
+    }
+    .trip-gal-desc p{
+        font-size: 10px;
+    }
+}
+
+
+/*  for course col text*/
+@media screen and (max-width:775px){
+    .course-colounm  ul{
+        padding-inline-start: 30px;
+
+
+    }
+}
