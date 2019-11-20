@@ -37,11 +37,10 @@
 /*  style for our course section*/
 
 .course-colounm{
-    background-color: white;
-    width: 23%;
+
     margin-bottom: 20px;
     padding: 2px 24px;
-    border: 10px solid darkslategrey;    
+      
     
 }
 .course-colounm button {
