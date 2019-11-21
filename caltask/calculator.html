@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="cust.css" >
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: dimgray;">JavaScript Calculator</h1>
+   <div>
+    <div class="display-div"> 
+        <p id="input1"></p>
+        <!-- <p id="opt"></p>
+        <p id="input2"></p> -->
+      <p>=</p>
+       <p>Result    
+          <p id="result"></p></p>
+         </div>
+         
+         <div id="digits-div" >
+
+            <button onclick="shownum(this)">9</button>
+            <button onclick="shownum(this)">8</button>
+            <button onclick="shownum(this)">7</button>
+            <button onclick="showopt(this)">+</button><br>
+    
+            <button onclick="shownum(this)">6</button>
+            <button onclick="shownum(this)">5</button>
+            <button onclick="shownum(this)">4</button>
+            <button onclick="showopt(this)">-</button><br>
+    
+            <button onclick="shownum(this)">3</button>
+            <button onclick="shownum(this)">2</button>
+            <button onclick="shownum(this)">1</button>
+            <button onclick="showopt(this)">*</button><br>
+    
+            <button onclick="shownum(this)">0</button>
+            <button onclick="showopt(this)">.</button>
+            <button onclick="result()">R</button>
+            <button onclick="showopt(this)">/</button><br>
+            <button style="width: fit-content;" onclick="clearall()">Clear</button>
+
+          </div>
+
+   </div>
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jscal.js"></script>
+
+</body>
+</html>

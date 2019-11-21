@@ -1,0 +1,48 @@
+.display-div{
+    padding: 5px;
+    display: flex;
+    background: powderblue;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+button {
+    border: 0;
+    background-color: rgb(31, 138, 156);
+     color: black;
+     cursor: pointer;
+     font-size: 20px;
+     margin: 0.25em;
+    width: 2em;
+    height: 2em;
+}
+button:hover {
+   background: #645fa7;
+}
+
+#result{
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 1px solid silver;
+    
+
+}
+#input1{
+width: 60%;
+height: 30px;
+background: white;
+border: 1px solid rgba(0, 0, 0, 0.322);
+padding: 5px;
+}
+
+
+
+#digits-div{
+    margin-left: 41%;
+}
