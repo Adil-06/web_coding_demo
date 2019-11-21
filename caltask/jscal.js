@@ -23,5 +23,7 @@ function clearall(){
 
 function result(){
   var  res = eval(num1.innerHTML);
-    document.getElementById("result").innerHTML = ':'+res;
+    document.getElementById("result").innerHTML = ''+res;
+    num1.innerHTML="";
+
 }
