@@ -1,26 +1,26 @@
 
 console.log("hi there");
-
+// getting values
 var num1 = document.getElementById("input1");
-//var num2= document.getElementById("input2");
 var operator = document.getElementById("opt");
-//var res;
+
+// for display a num
 function shownum(obj){
-    console.log("inside show num");
+    //console.log("inside show num");
      num1.innerHTML +=   obj.innerHTML; 
-   // num2.innerHTML += obj.innerHTML;
  }
+
+ // for dispaly operator
 function showopt(obj){
-// operator.innerHTML = obj.innerHTML;
 num1.innerHTML += obj.innerHTML;
 }
+
+// to clear the display area
 function clearall(){
-   // num2.innerHTML ="";
     num1.innerHTML="";
-   // operator.innerHTML = "";
     document.getElementById("result").innerHTML = "";
 }
-
+// clear the result
 function result(){
   var  res = eval(num1.innerHTML);
     document.getElementById("result").innerHTML = ''+res;
