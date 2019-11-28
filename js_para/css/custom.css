@@ -1,0 +1,35 @@
+.title{
+    color: rgba(228, 69, 101, 0.856);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin: 17px;
+}
+.added-div{
+    background-color: darkgrey;
+    padding: 20px;
+}
+.btnadd{
+    padding: 5px;
+    color: darkred;
+    border-radius: 5px;
+}
+.rec-div {
+    background-color: dimgray; 
+    padding: 15px;
+     margin-top: 10px;
+}
+#result-para{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.dropdwon-div{
+    margin-top: 20px;
+    background-color: thistle;
+    padding: 16px;
+}
+.div-closure{
+    margin-top: 20px;
+    background-color: rgb(195, 191, 216);
+    padding: 16px;
+}
