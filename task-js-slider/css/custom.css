@@ -1,0 +1,71 @@
+.head-title{
+    text-align: center;
+    color: rgba(0, 191, 255, 0.856);
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.slider-div{
+    padding: 20px 10px;
+    margin: 20px auto;
+width: fit-content;
+    
+}
+ 
+  .img-list{
+     width: 200px;
+     height: auto;
+     display: none;
+
+ }
+ .show-img{
+     display: inline-block;
+     width: 100px;
+ }
+
+ .slider-div button {
+     color: firebrick;
+     background-color: whitesmoke;
+     padding: 5px;
+     width: 60px;
+     border-radius: 5px;
+     font-family: cursive;
+ }
+
+ #container-div{
+     background-color: cadetblue;
+     padding: 20px;
+     margin: 20px;
+     position: relative;
+ }
+.sec-slider-div{
+   
+    position: relative;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: rgb(240, 202, 106);
+}
+
+.img-animate{
+    width: 100px;
+    display: none;
+   
+}
+#btn-animation{
+    color: indigo;
+    margin-left: 46%;
+    width: fit-content;
+    border: 1px solid rgb(248, 98, 98);
+    border-radius: 5px;
+}
+
+.animate-class{
+    -webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s linear 2s;
+}
+@keyframes example {
+    from { width: 100px;    height: 100px;}
+    to { width: 0px; height: 100px;}
+}
