@@ -34,7 +34,7 @@ function stopSliding () {
 
 })();
 
-
+// for move text
 $(document).ready(function(){
     $(".head").click(function(){
         $(this).hide();
@@ -56,3 +56,43 @@ $(document).ready(function(){
     });
 
 });
+
+// for move slide using jquery
+jQuery(document).ready(function($){
+
+      
+    $("#btnSlider").click(function(){
+       //$("#move-slider ul li");
+      var  slideint = setInterval(function(){
+           moveslider();
+       },4000);
+       
+    $("#btnStopslide").click(function(){
+        clearInterval(slideint);
+
+    });
+
+    });
+
+    var slideCount = $('#move-slider ul li').length;
+	var slideWidth = $('#move-slider ul li').width();
+	var slideHeight = $('#move-slider ul li').height();
+    var sliderUlWidth = slideCount * slideWidth;
+
+    $('#move-slider').css({ width: slideWidth, height: slideHeight });
+
+    $('#move-slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+    $('#move-slider ul li:last-child').prependTo('#move-slider ul');
+
+    function moveslider() {
+        $('#move-slider ul').animate({
+            left: - slideWidth
+        }, 3000, function () {
+            $('#move-slider ul li:first-child').appendTo('#move-slider ul');
+            $('#move-slider ul').css('left', '');
+        });
+    };
+
+});
+
