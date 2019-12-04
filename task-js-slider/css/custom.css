@@ -49,8 +49,11 @@ width: fit-content;
 }
 
 .img-animate{
+    position: absolute;
+    left: 10%;
+    top: 5%;
     width: 100px;
-    display: inline-flex;
+    display: block;
    
 }
 #btn-animation{

@@ -1,0 +1,50 @@
+.title{
+    text-align: center;
+    color: rgb(44, 109, 230);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec-1{
+    background-color: bisque;
+    padding: 15px 20px;
+}
+
+.sec-div{
+    margin-left: 500px;
+}
+
+.btnstop{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(123, 115, 243);
+    color: black;
+    width: 70px;
+    font-weight: bold;
+}
+
+.btnstart{
+    font-weight: bold;
+    padding: 10px;
+    margin: 15px 100px;
+    background-color: rgb(243, 115, 115);
+    color: black;
+    width: 70px;
+
+}
+
+#sliderContainer{
+    background-color: rgba(87, 114, 114, 0.534);
+     width: 300px;
+     margin: 0;
+     padding: 0px;
+     position: relative;
+     overflow: hidden;
+}
+
+#sliderContainer .slider{
+    margin: 0;
+      padding: 0;
+      width: 300px;
+      float: left;
+      position: relative;
+}

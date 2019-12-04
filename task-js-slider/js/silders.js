@@ -44,22 +44,29 @@ $(document).ready(function(){
     // for imge animation
     //$(".img-animate").eq(1).css('display' , 'none');
 
-    var imgslide =  $(".img-animate");
-   imgslide.each(function(){
-       $(this).css("display","none");
-   });
+    //     var imgslide =  $(".img-animate");
+    //    imgslide.each(function(){
+    //    $(this).css("display","none");
+    //    });
 
-
+   var imagecount = document.getElementsByClassName("img-animate");
+    for ( var l = 0; l < imagecount.length; ){
+        imagecount[l].style.display = 'inline-block';
+        l++;
+    }
 
     $("#btn-animation").click(function(){
        var imgslide =  $(".img-animate");
        
      // imgslide.animate({width:'0px'},2000);
      imgslide.addClass("animate-class");
-     $('img:first-child').css('display', 'inline-block');
-     $("img:first-child").css( {width : '0px', height:'100px',marginLeft: '0px'});
-     $("img:first-child").next().css('display', 'inline-block');
-     $("img:first-child").next().css({ width:'0px', height:'100px'});
+     //$('img:first-child').css('display', 'inline-block');
+
+
+     $('.img-animate').eq(0).css('display', 'inline-block');
+     $(".img-animate").eq(0).css( {width : '0px', height:'100px',marginLeft: '0px'});
+     $(".img-animate").eq(1).fadeIn(2000).css('display', 'inline-block');
+     $(".img-animate").eq(1).css({ width:'0px', height:'100px'});
 
 
     });
