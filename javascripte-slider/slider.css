@@ -15,10 +15,10 @@
 
 .btnstop{
     padding: 10px;
-    margin: 15px;
-    background-color: rgb(123, 115, 243);
+    margin: 15px auto;
+    background-color: rgba(166, 161, 247, 0.98);
     color: black;
-    width: 70px;
+    width: 300px;
     font-weight: bold;
 }
 
@@ -52,11 +52,12 @@
 
 }
 #sliderWrapper{
+    position: relative;
     animation-name: move;
     animation-duration: 11s;
 }
-
+/* 
 @keyframes move {
     from {margin-left: 0px;}
-    to {margin-left:-300px;}
-  } 
+    to {margin-left:-900px;}
+  }  */
